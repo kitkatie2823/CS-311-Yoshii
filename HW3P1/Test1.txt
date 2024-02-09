@@ -1,0 +1,40 @@
+Script started on Sat 07 Oct 2023 12:34:54 AM PDT
+]0;trinh048@empress:~/cs311files/CS311Progs/HWPrograms/forHW3new[?1034h[trinh048@empress forHW3new]$ exg++ HW3P1case1.cpp llist.cpp
+]0;trinh048@empress:~/cs311files/CS311Progs/HWPrograms/forHW3new[trinh048@empress forHW3new]$ ./a.out
+CASE 1: Basic --------------- 
+... in llist constructor...
+Step 1
+It is empty
+Step 2
+[ empty ]
+Step 3 adding  1 2 3 4
+Step 4
+[ 1 2 3 4 ]
+Step 5 deleteFront twice
+Removed: 1
+Removed: 2
+Step 6
+[ 3 4 ]
+Step 7
+It is not empty
+Step 8 deleteRear twice
+Removed: 4
+[ 3 ]
+Removed: 3
+Step 9
+It's empty
+Step 10Adding 9, 8, 6, 5
+Step 11
+[ 5 6 8 9 ]
+Step 12 deleteRear all
+Removed: 9
+Removed: 8
+Removed: 6
+Removed: 5
+Step 13
+[ empty ]
+.... in llist destructor...
+]0;trinh048@empress:~/cs311files/CS311Progs/HWPrograms/forHW3new[trinh048@empress forHW3new]$ exit
+exit
+
+Script done on Sat 07 Oct 2023 12:35:05 AM PDT

@@ -1,0 +1,42 @@
+Script started on Sat 21 Oct 2023 10:25:12 PM PDT
+]0;trinh048@empress:~/cs311files/CS311Progs/HWPrograms/forHW3new[?1034h[trinh048@empress forHW3new]$ vim llist.lsvim slist.cp[6P./a.oug++ HW3P2client.cpp slist.cpp llist.cpp
+]0;trinh048@empress:~/cs311files/CS311Progs/HWPrograms/forHW3new[trinh048@empress forHW3new]$ ./a.out
+... in llist constructor...
+slist constructor:
+Step 1 addFront
+Step 2 addRear
+Step 3
+[ 4 6 7 8 ]
+Step 4
+Found 6 in location 2
+Step 5 replace 6
+Step 6
+[ 4 0 7 8 ]
+Step 7
+Found 8 in location 4
+Step 8 replace 8
+Step 9
+[ 4 0 7 2 ]
+Step 10
+5 not found.
+Step 11 replace 7
+ERROR: Bad position was given
+.... in llist destructor...
+---- First Part testing done ----- 
+... in llist constructor...
+slist constructor:
+... in llist constructor...
+slist constructor:
+true
+false
+false
+true
+false
+false
+false
+.... in llist destructor...
+.... in llist destructor...
+]0;trinh048@empress:~/cs311files/CS311Progs/HWPrograms/forHW3new[trinh048@empress forHW3new]$ exit
+exit
+
+Script done on Sat 21 Oct 2023 10:25:27 PM PDT

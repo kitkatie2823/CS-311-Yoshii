@@ -1,0 +1,167 @@
+Script started on Sat 02 Dec 2023 08:18:59 PM PST
+]0;trinh048@empress:~/cs311files/CS311Progs/HWPrograms/forHW8[?1034h[trinh048@empress forHW8]$ g++ elem.cpp htable.cpp hw8client.cpp llist.cpp slist.cpp
+]0;trinh048@empress:~/cs311files/CS311Progs/HWPrograms/forHW8[trinh048@empress forHW8]$ ./a.out
+This App is used to make a data table using the full name, last 4 digits of SSN, and pin.
+What is the input file? (.txt file)input.txt
+1:[ 1|KatieTrinh|5739|2083 ]
+2:[ empty ]
+3:[ empty ]
+4:[ 4|AlexRed|9583|683 ]
+5:[ empty ]
+6:[ empty ]
+7:[ empty ]
+8:[ empty ]
+9:[ empty ]
+10:[ empty ]
+11:[ empty ]
+12:[ empty ]
+13:[ empty ]
+14:[ empty ]
+15:[ empty ]
+16:[ empty ]
+17:[ empty ]
+18:[ empty ]
+19:[ empty ]
+20:[ empty ]
+21:[ empty ]
+22:[ empty ]
+23:[ empty ]
+24:[ empty ]
+25:[ empty ]
+26:[ empty ]
+27:[ empty ]
+28:[ empty ]
+29:[ empty ]
+30:[ empty ]
+31:[ empty ]
+32:[ empty ]
+33:[ empty ]
+34:[ empty ]
+35:[ empty ]
+36:[ empty ]
+
+MENU: ---- 
+1 Add an element
+2 Find an element
+3 Delete an element
+4 Display the table
+5 Save the table to a file at the end
+6 Quit
+1
+What is the key to add? 2
+What is the full name?JuliePara
+What is the last 4 digits of your SSN?2049
+What is the 4 digits of your credit card pin?4829
+Added the element in slot 2
+MENU: ---- 
+1 Add an element
+2 Find an element
+3 Delete an element
+4 Display the table
+5 Save the table to a file at the end
+6 Quit
+1
+What is the key to add? 39
+What is the full name?KenLy
+What is the last 4 digits of your SSN?4582
+What is the 4 digits of your credit card pin?4048
+Added the element in slot 2
+MENU: ---- 
+1 Add an element
+2 Find an element
+3 Delete an element
+4 Display the table
+5 Save the table to a file at the end
+6 Quit
+2
+What is the key to find? 39
+Found this:
+39|KenLy|4582|4048
+MENU: ---- 
+1 Add an element
+2 Find an element
+3 Delete an element
+4 Display the table
+5 Save the table to a file at the end
+6 Quit
+2
+What is the key to find? 2
+Found this:
+2|JuliePara|2049|4829
+MENU: ---- 
+1 Add an element
+2 Find an element
+3 Delete an element
+4 Display the table
+5 Save the table to a file at the end
+6 Quit
+3
+What is the key to find and delete? 2
+Found it and deleted it from slot:2
+MENU: ---- 
+1 Add an element
+2 Find an element
+3 Delete an element
+4 Display the table
+5 Save the table to a file at the end
+6 Quit
+4
+The current contents are: 
+1:[ 1|KatieTrinh|5739|2083 ]
+2:[ 39|KenLy|4582|4048 ]
+3:[ empty ]
+4:[ 4|AlexRed|9583|683 ]
+5:[ empty ]
+6:[ empty ]
+7:[ empty ]
+8:[ empty ]
+9:[ empty ]
+10:[ empty ]
+11:[ empty ]
+12:[ empty ]
+13:[ empty ]
+14:[ empty ]
+15:[ empty ]
+16:[ empty ]
+17:[ empty ]
+18:[ empty ]
+19:[ empty ]
+20:[ empty ]
+21:[ empty ]
+22:[ empty ]
+23:[ empty ]
+24:[ empty ]
+25:[ empty ]
+26:[ empty ]
+27:[ empty ]
+28:[ empty ]
+29:[ empty ]
+30:[ empty ]
+31:[ empty ]
+32:[ empty ]
+33:[ empty ]
+34:[ empty ]
+35:[ empty ]
+36:[ empty ]
+MENU: ---- 
+1 Add an element
+2 Find an element
+3 Delete an element
+4 Display the table
+5 Save the table to a file at the end
+6 Quit
+5
+Saved the updated table in newout.txt
+MENU: ---- 
+1 Add an element
+2 Find an element
+3 Delete an element
+4 Display the table
+5 Save the table to a file at the end
+6 Quit
+6
+bye
+]0;trinh048@empress:~/cs311files/CS311Progs/HWPrograms/forHW8[trinh048@empress forHW8]$ exit
+exit
+
+Script done on Sat 02 Dec 2023 08:22:22 PM PST

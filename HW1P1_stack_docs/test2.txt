@@ -1,0 +1,47 @@
+Script started on Fri 08 Sep 2023 09:58:44 PM PDT
+]0;trinh048@empress:~/cs311files/CS311Progs/HWPrograms/forHW1/HW1P1_stack[?1034h[trinh048@empress HW1P1_stack]$ g++ stack.cpp client1.cpp
+]0;trinh048@empress:~/cs311files/CS311Progs/HWPrograms/forHW1/HW1P1_stack[trinh048@empress HW1P1_stack]$ ./a.out
+type a postfix expression: 34+
+Answer is: 7
+]0;trinh048@empress:~/cs311files/CS311Progs/HWPrograms/forHW1/HW1P1_stack[trinh048@empress HW1P1_stack]$ g++ stack.cpp client1.cpp
+^[[A^[[B]0;trinh048@empress:~/cs311files/CS311Progs/HWPrograms/forHW1/HW1P1_stack[trinh048@empress HW1P1_stack]$ g++ stack.cpp client1.cp[Kg++ stack.cpp client1.cp./a.out[K
+type a postfix expression: 345+*
+Answer is: 27
+]0;trinh048@empress:~/cs311files/CS311Progs/HWPrograms/forHW1/HW1P1_stack[trinh048@empress HW1P1_stack]$ ./a.oug++ stack.cpp client1.cpp
+^[[A]0;trinh048@empress:~/cs311files/CS311Progs/HWPrograms/forHW1/HW1P1_stack[trinh048@empress HW1P1_stack]$ g++ stack.cpp client1.cp./a.out[K
+type a postfix expression: 722+-
+Answer is: 3
+]0;trinh048@empress:~/cs311files/CS311Progs/HWPrograms/forHW1/HW1P1_stack[trinh048@empress HW1P1_stack]$ ./a.oug++ stack.cpp client1.cpp
+]0;trinh048@empress:~/cs311files/CS311Progs/HWPrograms/forHW1/HW1P1_stack[trinh048@empress HW1P1_stack]$ g++ stack.cpp client1.cp./a.out[K
+type a postfix expression: 34+56++
+Answer is: 18
+]0;trinh048@empress:~/cs311files/CS311Progs/HWPrograms/forHW1/HW1P1_stack[trinh048@empress HW1P1_stack]$ ./a.oug++ stack.cpp client1.cpp
+]0;trinh048@empress:~/cs311files/CS311Progs/HWPrograms/forHW1/HW1P1_stack[trinh048@empress HW1P1_stack]$ g++ stack.cpp client1.cp./a.out[K
+type a postfix expression: 12+34*45+-+
+Answer is: 6
+]0;trinh048@empress:~/cs311files/CS311Progs/HWPrograms/forHW1/HW1P1_stack[trinh048@empress HW1P1_stack]$ g++[[[[K./a.oug++ stack.cpp client1.cpp
+]0;trinh048@empress:~/cs311files/CS311Progs/HWPrograms/forHW1/HW1P1_stack[trinh048@empress HW1P1_stack]$ g++ stack.cpp client1.cp./a.out[K
+type a postfix expression: 1234567891234
+An Error occurred - Type is: Overflow 
+]0;trinh048@empress:~/cs311files/CS311Progs/HWPrograms/forHW1/HW1P1_stack[trinh048@empress HW1P1_stack]$ ./a.oug++ stack.cpp client1.cpp
+]0;trinh048@empress:~/cs311files/CS311Progs/HWPrograms/forHW1/HW1P1_stack[trinh048@empress HW1P1_stack]$ g++ stack.cpp client1.cp./a.out[K
+type a postfix expression: +
+An Error occurred - Type is: Underflow 
+]0;trinh048@empress:~/cs311files/CS311Progs/HWPrograms/forHW1/HW1P1_stack[trinh048@empress HW1P1_stack]$ ./a.oug++ stack.cpp client1.cpp
+]0;trinh048@empress:~/cs311files/CS311Progs/HWPrograms/forHW1/HW1P1_stack[trinh048@empress HW1P1_stack]$ g++ stack.cpp client1.cp./a.out[K
+type a postfix expression: 3+
+An Error occurred - Type is: Underflow 
+]0;trinh048@empress:~/cs311files/CS311Progs/HWPrograms/forHW1/HW1P1_stack[trinh048@empress HW1P1_stack]$ ./a.oug++ stack.cpp client1.cpp
+]0;trinh048@empress:~/cs311files/CS311Progs/HWPrograms/forHW1/HW1P1_stack[trinh048@empress HW1P1_stack]$ g++ stack.cpp client1.cp./a.out[K
+type a postfix expression: 3#
+Error. Invalid item.
+ Answer is: 3
+]0;trinh048@empress:~/cs311files/CS311Progs/HWPrograms/forHW1/HW1P1_stack[trinh048@empress HW1P1_stack]$ ./a.oug++ stack.cpp client1.cpp
+]0;trinh048@empress:~/cs311files/CS311Progs/HWPrograms/forHW1/HW1P1_stack[trinh048@empress HW1P1_stack]$ g++ stack.cpp client1.cp./a.out[K
+type a postfix expression: 2345+
+Answer is: 9
+Incomplete Expression. Some items were left in the stack.
+]0;trinh048@empress:~/cs311files/CS311Progs/HWPrograms/forHW1/HW1P1_stack[trinh048@empress HW1P1_stack]$ exit
+exit
+
+Script done on Fri 08 Sep 2023 10:04:11 PM PDT

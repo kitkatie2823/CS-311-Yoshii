@@ -1,0 +1,107 @@
+Script started on Sat 14 Oct 2023 10:05:30 PM PDT
+]0;trinh048@empress:~/cs311files/CS311Progs/HWPrograms/forHW3new[?1034h[trinh048@empress forHW3new]$ logovim llist.cplscd forHW3nlscd[[[Kg++ HW3P1client.cpp llist.cpp
+]0;trinh048@empress:~/cs311files/CS311Progs/HWPrograms/forHW3new[trinh048@empress forHW3new]$ ./a.out
+
+MENU: These are your options: 
+
+   (1) Case 1  
+   (2) Case 2  
+   (3) Case 3  
+    Enter ( 0 ) to quit 
+===>2
+Case 2: Insert and Delete ------------
+... in llist constructor...
+Step 1 addFront 9 8 6 5
+Step 2
+[ 5 6 8 9 ]
+Step 3 insert first 4
+Step 4 insert 4th 7
+Step 5 insert 7th 10
+[ 4 5 6 7 8 9 10 ]
+Step 6 insert 9th
+Error: Out of Range
+Step 7 insert 0th
+Error: Out of Range
+Step 8
+[ 4 5 6 7 8 9 10 ]
+Step 9 delete 1st
+removed 4
+Step 10 delete 6th
+Removed: 10
+Step 11 delete 3rd
+Removed: 7
+[ 5 6 8 9 ]
+Step 12 delete 5th
+Error: Out of Range
+Step 13 delete 0th
+Error: Out of Range
+Step 14
+[ 5 6 8 9 ]
+Step 15 delete all
+Removed: 9
+Removed: 8
+Removed: 6
+Removed: 5
+Step 16
+[ empty ]
+Step 17 insert 0th
+Error: Out of Range
+Step 18 deleteFront
+Error: Underflow
+Step 19 delete 2nd
+Error: Out of Range
+Step 20 deleteRear
+Error: Underflow
+.... in llist destructor...
+
+MENU: These are your options: 
+
+   (1) Case 1  
+   (2) Case 2  
+   (3) Case 3  
+    Enter ( 0 ) to quit 
+===>3
+Case 3: Copy Constructor and = -------
+... in llist constructor...
+... in llist constructor...
+Step 1 Adding [1,2,3,4,5,] into L1
+L1: [ 1 2 3 4 5 ]
+Step 2 Calling CopyTest to test Copy Constructor.
+in copy test
+[ 1 2 3 4 5 6 ]
+finished
+.... in llist destructor...
+-- After copytest --- 
+Step 3 Displaying L1
+L1: [ 1 2 3 4 5 ]
+-- Testing operator overloading ---
+Step 4 Testing L1 = L1
+Step 5 Displaying L1
+L1: [ 1 2 3 4 5 ]
+Step 6 Adding [7,8,9,10] into L2
+Step 7 Displaying L2
+L2: [ 7 8 9 10 ]
+Step 8 Testing L2 = L1
+Step 9 Displaying L2
+L2: [ 1 2 3 4 5 ]
+Step 10 Removing rear node from L1
+Step 11
+L1 :[ 1 2 3 4 ]
+Step 12
+L1: [ 1 2 3 4 ]
+Step 13
+L2: [ 1 2 3 4 5 ]
+.... in llist destructor...
+.... in llist destructor...
+
+MENU: These are your options: 
+
+   (1) Case 1  
+   (2) Case 2  
+   (3) Case 3  
+    Enter ( 0 ) to quit 
+===>0
+]0;trinh048@empress:~/cs311files/CS311Progs/HWPrograms/forHW3new[trinh048@empress forHW3new]$ exit
+exit
+
+Script done on Sat 14 Oct 2023 10:06:00 PM PDT
